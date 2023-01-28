@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Single Page Portfolio</title>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+     <link rel="apple-touch-icon" sizes="180x180" href="IMG/favicon_io/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon_io/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon_io/favicon-16x16.png">
+     <link rel="manifest" href="IMG/favicon_io/site.webmanifest">
+
+     <link href="https://fonts.cdnfonts.com/css/halimun" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="CSS/styles.css">
+     <link rel="stylesheet" href="CSS/normalize.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+     <header id="top" class="flex flex-row p-5 bg-zinc-900 text-white justify-between items-center relative">
+          <img src="./IMG/favicon_io/apple-touch-icon.png" alt="logo" class="h-24 md:h-36">
+          <nav class="flex flex-col md:flex-row md-space-x-6 mr-10 p-4 md:p-0 w-full md:w-auto">
+               <a href="#About"
+                    class="sm:p-0 md:p-3 lg:p-3 hover:bg-gray-200 hover:text-zinc-900 text-sm sm:text-sm md:text-lg lg:text-xl uppercase rounded">About</a>
+               <a href="#WorkExamples"
+                    class="sm:p-0 md:p-3 lg:p-3 hover:bg-gray-200 hover:text-zinc-900 text-sm sm:text-sm md:text-lg lg:text-xl uppercase rounded">Work
+                    Examples</a>
+               <a href="#Skills"
+                    class="sm:p-0 md:p-3 lg:p-3 hover:bg-gray-200 hover:text-zinc-900 text-sm sm:text-sm md:text-lg lg:text-xl uppercase rounded">Skills</a>
+               <a href="#Contact"
+                    class="sm:p-0 md:p-3 lg:p-3 hover:bg-gray-200 hover:text-zinc-900 text-sm sm:text-sm md:text-lg lg:text-xl uppercase rounded">Contact</a>
+          </nav>
+     </header>
+     <main>
+          <section id="About" class="container">
+               <h1 id="center-text" class="text-3xl md:text-4xl pt-5">About Soli</h1>
+               <article id="flex-wrapper" class="p-5">
+                    <div class="w-full md:w- lg:w-1/2 flex flex-col">
+                         <img src="./IMG/selfie.png" alt="selfie of Soli" class="m-auto w-3/4 " id="selfieTop">
+                         <p class="m-auto text-xl">Mom | Full Stack Developer</p>
+
+                    </div>
+
+                    <p class="m-auto m-auto w-3/4 md:text-xl tracking-wide leading-relaxed">
+                         Guilty of wanting to learn and try ALL GOOD THINGS in life, I've spent the last 20 years working a variety of roles in all kinds of industries; Both Medical and Dental fields, banking, book-keeping, retail, catering, furniture upholstering, Disney World, every admin role in the world and even some waitressing, just to name a few.  <br><br>
+                         Trying to wear all those hats eventually covered my eyes and sent me tumbling down a path leading me straight into my niche: 
+                         <span class="uppercase">Web Development. </span>I was born in the 80s when the internet didn't exist. Today though, I personally can not imagine my life without code, much less without the internet. And if you take a look around, neither can most businesses, and even some people, anymore. 
+                         <br><br>That is why my current goals include mastering full stack development in all its facets and working to bridge the digital gaps in our society.
+                         I'm passionate about learning and more importantly, paying it forward.
+                         
+                         <br><br>When I’m not honing my coding skills or home counting my blessings, you can find me on two wheels, all over New York City making memories with my daughter/favorite human.
+                         <br><br>
+                         <button class="flex w-content m-auto text-xl border-2 rounded border-zinc-900 ">
+                              <a href="#Contact">
+                                   <p
+                                        class="text-md text-zinc-900 p-3 hover:bg-zinc-900 hover:p-3 hover:text-white uppercase">
+                                        Lets connect
+                                   </p>
+                              </a>
+                         </button>
+                    </p>
+
+
+
+
+               </article>
+          </section>
+
+          <section id="WorkExamples">
+               <h3 id="center-text" class="text-3xl md:text-4xl pt-10 text-zinc-900">Work Examples</h3>
+               <div id="grid-wrapper" class="p-10">
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">Severance Fan Page</h4>
+                         <p class="ml-10 mr-10 pb-5">A single web page using Tailwind CSS framework.</p>
+                         <img src="./IMG/severance.png"
+                              alt="Severance TV Show Fan Page created using HTML CSS & Tailwind" id="sample">
+                         <p class="m-5">Technologies: HTML | CSS | Tailwind</p>
+                         <button class="text-lg border-2 rounded border-gray-300 "><a
+                                   href="https://solinyc.github.io/severance/">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">DV: Call-To-Action</h4>
+                         <p class="ml-10 mr-10 pb-5">A single web page using Tailwind CSS framework.</p>
+                         <img src="./IMG/call-to-action.png"
+                              alt="Domestic Violence: Call-To-Action responsive design created using HTML & CSS"
+                              id="sample">
+                         <p class="m-5">Technologies: HTML | CSS
+                         </p>
+                         <button class="text-lg border-2 rounded border-gray-300 "><a href="https://solinyc.github.io/">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">Netflix Clone</h4>
+                         <p class="ml-10 mr-10 pb-5">A Netflix clone created using Firebase database, React.js framework, Hyper Text Markup Language, & a Cascasing Style Sheet.</p>
+                         <img src="./IMG/netflix.png" alt="Netflix Clone" id="sample">
+                         <p class="m-5">Technologies: HTML | CSS | ReactJS | Firebase
+                         </p>
+                         <button class="text-lg border-2 rounded border-gray-300 "><a
+                                   href="https://netflix-clone-59330.web.app/">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">Responsive Design Practice</h4>
+                         <p class="ml-10 mr-10 pb-5">A single web page using Tailwind CSS framework.</p>
+                         <img src="./IMG/practice.png" alt="Responsive Design Practice uzing HTML & CSS" id="sample">
+                         <p class="m-5">Technologies: HTML | CSS
+                         </p>
+                         <button class="text-lg border-2 rounded border-gray-300"><a
+                                   href="https://codepen.io/solinyc/full/JjBZemw">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">Tribute Page</h4>
+                         <p class="ml-10 mr-10 pb-5">A single web page using Tailwind CSS framework.</p>
+                         <img src="./IMG/tributepage.png" alt="Tribute Page created using HTML & CSS" id="sample">
+                         <p class="m-5">Technologies: HTML | CSS
+                         </p>
+                         <button class="text-lg border-2 rounded border-gray-300 "><a
+                                   href="https://codepen.io/solinyc/full/bGjdJbq">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+                    <article id="card" class="bg-zinc-900">
+                         <h4 class="text-2xl uppercase underline">Picasso Painting</h4>
+                         <p class="ml-10 mr-10 pb-5">A single web page using Tailwind CSS framework.</p>
+                         <img src="./IMG/picasso.png" alt="Picasso Painting made with only CSS" id="sample">
+                         <p class="m-5">Technologies: CSS
+                         </p>
+                         <button class="text-lg border-2 rounded border-gray-300 "><a
+                                   href="https://codepen.io/solinyc/full/bGjdJbq">
+                                   <p
+                                        class="text-md text-zinc-900 p-2 bg-gray-300 hover:p-2 hover:bg-white hover:text-zinc-900 uppercase">
+                                        View Live</p>
+                              </a>
+                         </button>
+                    </article>
+
+               </div>
+          </section>
+
+          <section class="m-auto pl-10 pr-10 md:pl-40 md:pr-40 pt-10 pb-10 bg-zinc-900 text-white" id="Skills">
+               <h1 class="text-3xl md:text-4xl pb-5" id="skills">Skills</h1>
+               <article id="flex-wrapper">
+                    <div class="w-full text-center">
+                         <p class="text-2xl pb-5 uppercase underline">Frontend</p>
+                         <p>
+                              HTML | CSS | JavaScript | React.js | APIs | HTTP | Axios
+                         </p>
+                    </div>
+                    <div class="w-full text-center">
+                         <p class="text-2xl pb-5 uppercase underline ">Backend</p>
+                         <p>
+                              Node.js | Express.js | MongoDB | PostgreSQL | MySQL
+                         </p>
+                    </div>
+               </article>
+          </section>
+
+     <!-- CONTACT SECTION -->
+          <section id="Contact" class="mb-10 pt-10 pb-5 ">
+               <h3 id="center-text" class="pb-5 text-3xl lg:text-4xl text-zinc-900 w-full">Contact</h3>
+               <p class="m-auto pb-10 pl-20 pr-20 md:pl-40 md:pr-40 lg:pr-64 lg:pl-64 md:text-2xl tracking-wide leading-relaxed">Do you want the world to know who you are or what you have to offer? Is there a product or products you can't wait to sell online? Maybe you have loads of wisdom you want to share with the world? Do you need a platform, a website, and/or a social
+                    media presence to meet your goals? I may be the developer that can build your way
+                    there, let's connect!</p>
+               <form id="contactMe" class="hover:bg-zinc-900 hover:text-white">
+                    <p class="uppercase pb-5 text-2xl hover:text-white">Best ways to reach me </p>
+                    <img src="https://user-images.githubusercontent.com/72266712/202002960-26234037-995b-46c6-9348-99c0462d6001.jpg"
+                         alt="selfie" id="selfie" />
+
+                 
+
+                    <a href="https://www.linkedin.com/in/solinyc/" target="_blank"
+                         class="fa fa-linkedin m-1 p-1 text-3xl hover:text-5xl "></a> |
+                    <a href="https://www.instagram.com/soli.nyc" target="_blank"
+                         class="fa fa-instagram m-1 p-1 text-3xl hover:text-5xl"></a> |
+                    <a href="https://github.com/solinyc" target="_blank"
+                         class="fa fa-github m-1 p-1 text-3xl hover:text-5xl hover:pl-1 hover:pr-1 "></a> |
+                         <a href="mailto:soli.developed@gmail.com" target="_blank"
+                         class="fa fa-envelope m-1 p-1 text-2xl hover:text-5xl "></a> 
+
+               </form>
+               
+          </section>
+          <section class=" uppercase hover:bg-zinc-900 hover:text-white">
+               <a href="#top">
+                    <p class="flex justify-center content-center p-5">Back to top!
+                    </p>
+               </a>
+          </section>
+     </main>
+     <footer class="text-center mt-10 pb-5 pt-5 bg-zinc-900 text-white">
+          <!-- Social Media Bar -->
+          <a href="https://github.com/solinyc" class="fa fa-github m-1 hover:text-2xl"></a>
+          <a href="https://codepen.io/solinyc" class="fa fa-codepen m-1 hover:text-2xl"></a>
+          <a href="https://www.facebook.com/soli.nyc.fb/" class="fa fa-facebook m-1 hover:text-2xl"></a>
+          <a href="https://twitter.com/soli_nyc" class="fa fa-twitter m-1 hover:text-2xl"></a>
+          <a href="mailto:soli.developed@gmail.com" class="fa fa-google m-1 hover:text-2xl"></a>
+          <a href="https://www.linkedin.com/in/solinyc/" class="fa fa-linkedin m-1 hover:text-2xl"></a>
+          <a href="https://www.youtube.com/channel/UClTE-ObtJ9OCd0Hh-Yuo1Tw"
+               class="fa fa-youtube m-1 hover:text-2xl"></a>
+          <a href="https://www.instagram.com/solinyc" class="fa fa-instagram m-1 hover:text-2xl"></a>
+          <a href="https://www.reddit.com/user/solinyc" class="fa fa-reddit m-1 hover:text-2xl"></a>
+          <!-- copyright -->
+          <p class="text-md overline pt-2 ">soli.nyc &copy 2023 | All Rights Reserved</p>
+     </footer>
+</body>
+
+</html>
